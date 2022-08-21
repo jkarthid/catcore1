@@ -140,7 +140,7 @@ namespace CatCore.Services
 
 			_websocketClient = null;
 
-			await DisconnectHandler().ConfigureAwait(false);
+			await DisconnectHandler().ConfigureAwait(true);
 		}
 
 		private async Task ConnectHandler(WebSocketConnection webSocketConnection)
