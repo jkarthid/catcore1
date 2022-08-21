@@ -13,7 +13,7 @@ namespace CatCore.Services
 			{
 				if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
 				{
-					Process.Start(ConstantsBase.InternalApiServerUri);
+					Process.Start(ConstantsBase.InternalApiServerUrl);
 				}
 				else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
 				{
