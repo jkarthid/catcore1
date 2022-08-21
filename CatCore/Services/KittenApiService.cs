@@ -131,7 +131,7 @@ namespace CatCore.Services
 
 		private Task<bool> HandleApiRequest(HttpListenerRequest request, HttpListenerResponse response)
 		{
-			return request.Url.Segments.ElementAtOrDefault(2) switch
+			return request.Url.Segments.ElementAtOrDefault(3) switch
 			{
 				"twitch/" => HandleTwitchApiRequests(request, response),
 				"global/" => HandleGlobalApiRequest(request, response),
