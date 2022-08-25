@@ -123,7 +123,7 @@ namespace CatCoreTester
 
 			while (Console.ReadKey().KeyChar != 'c')
 			{
-				await Task.Delay(TimeSpan.FromMilliseconds(100)).ConfigureAwait(false);
+				await Task.Delay(TimeSpan.FromMilliseconds(200)).ConfigureAwait(false);
 			}
 
 			Console.WriteLine();
