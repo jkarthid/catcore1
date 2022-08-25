@@ -16,7 +16,7 @@ namespace CatCore.Services.Twitch.Interfaces
 
 		List<string> GetAllActiveChannelIds(bool includeSelfRegardlessOfState = false);
 		List<string> GetAllActiveLoginNames(bool includeSelfRegardlessOfState = false);
-		List<TwitchChannel> GetAllActiveChannels(bool includeSelfRegardlessOfState = false);
+		List<TwitchChannel> GetAllActiveChannels(bool includeSelfRegardlessOfState = true);
 		ReadOnlyDictionary<string, string> GetAllActiveChannelsAsDictionary(bool includeSelfRegardlessOfState = false);
 		Task<List<UserData>> GetAllChannelsEnriched();
 
