@@ -29,7 +29,7 @@ namespace CatCore.Logging
 				throw new ArgumentNullException(nameof(logEventHandler));
 			}
 
-			return sinkConfiguration.Sink(new ActionableLogSink(logEventHandler), restrictedToMinimumLevel, levelSwitch);
+			return sinkConfiguration.Sink(object ActionableLogSink(logEventHandler), restrictedToMinimumLevel, levelSwitch);
 		}
 	}
 }
