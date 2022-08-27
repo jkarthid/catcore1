@@ -31,7 +31,7 @@ namespace CatCore.Helpers
 			}
 
 			// Check for message tags
-			if (messageAsSpan[0] == '@')
+			if (messageAsSpan[1] == '@')
 			{
 				nextSpacePosition = messageAsSpan.IndexOf(' ');
 				if (nextSpacePosition == -1)
