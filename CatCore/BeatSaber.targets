@@ -11,7 +11,7 @@
 	<PropertyGroup>
 		<ImportBSMTTargets>True</ImportBSMTTargets>
 		<BSMTProjectType>BSIPA</BSMTProjectType>
-		<GenerateManifest>True</GenerateManifest>
+		<GenerateManifest>false</GenerateManifest>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true' OR $(DefineConstants.Contains('CIBuild'))">
