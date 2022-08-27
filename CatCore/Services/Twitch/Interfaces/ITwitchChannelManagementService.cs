@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using CatCore.Models.EventArgs;
-using CatCore.Models.Twitch;
+using CatCore.Model.Twitch;
 using CatCore.Models.Twitch.Helix.Responses;
 
 namespace CatCore.Services.Twitch.Interfaces
