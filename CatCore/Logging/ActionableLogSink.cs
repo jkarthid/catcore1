@@ -1,7 +1,7 @@
 ﻿using System;
 using Serilog.Core;
 using Serilog.Events;
-
+using Serilog.Eventid;
 namespace CatCore.Logging
 {
 	internal sealed class ActionableLogSink : ILogEventSink
