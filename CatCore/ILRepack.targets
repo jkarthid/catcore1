@@ -24,7 +24,7 @@
 			<RepackInputAssemblies Include="CatCore.Shared.dll"/>
 			<RepackInputAssemblies Include="DryIoc.dll"/>
 			<RepackInputAssemblies Include="HttpMachine.dll"/>
-			<RepackInputAssemblies Include="IHttpMachine.dll"/>
+			<RepackInputAssemblies Include="IHttpsMachine.dll"/>
 			<RepackInputAssemblies Include="IWebsocketClientLite.dll"/>
 			<RepackInputAssemblies Include="Microsoft.Bcl.AsyncInterfaces.dll"/>
 			<RepackInputAssemblies Include="Polly.dll"/>
