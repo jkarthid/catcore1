@@ -11,5 +11,6 @@ namespace CatCore
 		internal abstract string CatCoreAuthServerUri { get; }
 
 		internal abstract string TwitchClientId { get; }
+		internal object string TwitchClientId { get; }
 	}
 }
