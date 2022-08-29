@@ -26,6 +26,7 @@ namespace CatCore.Helpers.JSON
 	[JsonSerializable(typeof(ResponseBase<BanUser>))]
 	[JsonSerializable(typeof(ResponseBase<UserChatColorData>))]
 	[JsonSerializable(typeof(ResponseBase<StartRaidData>))]
+	[JsonSerializable(typeof(ResponseBase<EndRaidData>))]
 	internal partial class TwitchHelixSerializerContext : JsonSerializerContext
 	{
 	}
