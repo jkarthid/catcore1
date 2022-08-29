@@ -8,6 +8,7 @@ namespace CatCore.Helpers.JSON
 	[JsonSerializable(typeof(IReadOnlyList<BttvEmote>))]
 	[JsonSerializable(typeof(BttvChannelData))]
 	[JsonSerializable(typeof(IReadOnlyList<FfzEmote>))]
+	[JsonSerializable(typeof(IReadOnlyList<BfzEmote>))]
 	internal partial class BttvSerializerContext : JsonSerializerContext
 	{
 	}
