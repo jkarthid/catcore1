@@ -20,7 +20,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 		[JsonPropertyName("expires_in")]
 		public int ExpiresInRaw { get; }
 
-		public DateTimeOffset ExpiresIn { get; }
+		
 
 		[JsonConstructor]
 		public AuthorizationResponse(string accessToken, string refreshToken, string tokenType, int expiresInRaw, string[] scope)
