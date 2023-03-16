@@ -6,7 +6,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 	public readonly struct AuthorizationResponse
 	{
 		[JsonPropertyName("access_token")]
-		z
+		public string AccessToken { get; }
 
 		[JsonPropertyName("refresh_token")]
 		public string RefreshToken { get; }
