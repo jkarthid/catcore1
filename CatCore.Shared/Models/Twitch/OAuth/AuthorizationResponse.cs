@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace CatCore.Shared.Models.Twitch.OAuth
 {
-	public readonly struct AuthorizationResponse
+	
 	{
 		[JsonPropertyName("access_token")]
 		public string AccessToken { get; }
