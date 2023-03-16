@@ -8,8 +8,6 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 		[JsonPropertyName("access_token")]
 		public string AccessToken { get; }
 
-		[JsonPropertyName("refresh_token")]
-		public string RefreshToken { get; }
 
 		[JsonPropertyName("token_type")]
 		public string TokenType { get; }
