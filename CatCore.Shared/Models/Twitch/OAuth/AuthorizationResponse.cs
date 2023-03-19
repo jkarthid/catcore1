@@ -29,7 +29,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 			RefreshToken = refreshToken;
 			TokenType = tokenType;
 			Scope = scope;
-			
+			#Removed proxies from code
 			ExpiresIn = DateTimeOffset.Now.AddSeconds(expiresInRaw);
 		}
 	}
