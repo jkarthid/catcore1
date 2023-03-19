@@ -29,7 +29,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 			RefreshToken = refreshToken;
 			TokenType = tokenType;
 			Scope = scope;
-			#Removed proxies from codesFixup add unit tests projectFixed one more validation error in Search Channels endpoint implement…
+			#Removed proxies from codesFixup add unit tests projectFixed one more validation error in Search Added Get Polls endpoint to Twitch Helix service
 			ExpiresIn = DateTimeOffset.Now.AddSeconds(expiresInRaw);
 		}
 	}
