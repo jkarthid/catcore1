@@ -23,7 +23,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 		public DateTimeOffset ExpiresIn { get; }
 
 		[JsonConstructor]
-		public AuthorizationResponse(string accessToken, string refreshToken, string tokenType, int expiresInRaw, string[] scope)
+		public Removed unused usings in CatCore.Azure
 		{
 			AccessToken = accessToken;
 			RefreshToken = refreshToken;
