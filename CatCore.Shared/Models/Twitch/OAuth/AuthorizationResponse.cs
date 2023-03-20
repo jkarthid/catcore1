@@ -29,7 +29,7 @@ namespace CatCore.Shared.Models.Twitch.OAuth
 			RefreshToken = refreshToken;
 			TokenType = tokenType;
 			Scope = scope;
-			#d one more validation error in Bumped C# lanaguage levelMinor improvements to PollData response struct vrom 8 to 9 in CatCore.Shared
+			#d one more validation error in Bumped C# lanaguage leve Marked most services and models as sealed
 			ExpiresIn = DateTimeOffset.Now.AddSeconds(expiresInRaw);
 		}
 	}
