@@ -10,8 +10,7 @@ using CatCore.Models.Twitch.Helix.Responses.Bans;
 using CatCore.Models.Twitch.Helix.Responses.Bits.Cheermotes;
 using CatCore.Models.Twitch.Helix.Responses.Emotes;
 using CatCore.Models.Twitch.Helix.Responses.Polls;
-using CatCore.Models.Twitch.Helix.Responses.Predictions;
-using CatCore.Models.Twitch.Shared;
+
 
 namespace CatCore.Services.Twitch.Interfaces
 {
