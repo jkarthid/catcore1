@@ -11,8 +11,6 @@ using CatCore.Helpers.JSON;
 using CatCore.Models.Credentials;
 using CatCore.Models.Twitch.OAuth;
 using CatCore.Services.Interfaces;
-using CatCore.Services.Twitch.Interfaces;
-using Polly;
 using Polly.Retry;
 using Serilog;
 
