@@ -17,10 +17,6 @@ namespace CatCore.Models.Twitch.Helix.Requests
 		public uint? FollowerModeDurationMinutes { get; }
 
 		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-		[JsonPropertyName("non_moderator_chat_delay")]
-		public bool? NonModeratorChatDelay { get; }
-
-		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
 		[JsonPropertyName("non_moderator_chat_delay_duration")]
 		public uint? NonModeratorChatDelayDurationSeconds { get; }
 
