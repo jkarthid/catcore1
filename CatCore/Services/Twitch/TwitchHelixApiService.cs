@@ -9,11 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using CatCore.Exceptions;
 using CatCore.Helpers;
-using CatCore.Models.Twitch.OAuth;
-using CatCore.Services.Twitch.Interfaces;
-using Polly;
-using Polly.Wrap;
-using Serilog;
+
 
 namespace CatCore.Services.Twitch
 {
