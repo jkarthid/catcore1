@@ -6,9 +6,7 @@ using System.Net.Http.Json;
 using System.Runtime.CompilerServices;
 using System.Text.Json.Serialization.Metadata;
 using System.Threading;
-using System.Threading.Tasks;
-using CatCore.Exceptions;
-using CatCore.Helpers;
+
 
 
 namespace CatCore.Services.Twitch
