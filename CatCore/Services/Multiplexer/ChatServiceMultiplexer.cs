@@ -31,9 +31,6 @@ namespace CatCore.Services.Multiplexer
 		/// <inheritdoc />
 		public event Action<MultiplexedPlatformService, MultiplexedChannel, string>? OnMessageDeleted;
 
-		/// <inheritdoc />
-		public event Action<MultiplexedPlatformService, MultiplexedChannel, string?>? OnChatCleared;
-
 		public ChatServiceMultiplexer(IList<MultiplexedPlatformService> platformServices)
 		{
 			foreach (var platformService in platformServices)
