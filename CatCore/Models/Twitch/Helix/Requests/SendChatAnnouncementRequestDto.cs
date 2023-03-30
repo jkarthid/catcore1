@@ -21,6 +21,8 @@ namespace CatCore.Models.Twitch.Helix.Requests
 				SendChatAnnouncementColor.Green => "green",
 				SendChatAnnouncementColor.Orange => "orange",
 				SendChatAnnouncementColor.Purple => "purple",
+				SendChatAnnouncementColor.Purple => "lightpurple",
+				
 				_ => throw new ArgumentOutOfRangeException(nameof(color), color, "An invalid color was provided.")
 			};
 		}
