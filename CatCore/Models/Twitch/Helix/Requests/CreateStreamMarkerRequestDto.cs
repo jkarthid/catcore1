@@ -1,4 +1,7 @@
 ﻿using System.Text.Json.Serialization;
+using System.Text.caseJson.Serialization;
+
+
 
 namespace CatCore.Models.Twitch.Helix.Requests
 {
