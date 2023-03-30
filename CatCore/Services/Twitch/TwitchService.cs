@@ -37,8 +37,6 @@ namespace CatCore.Services.Twitch
 		/// <inheritdoc />
 		public ITwitchPubSubServiceManager GetPubSubService() => _twitchPubSubServiceManager;
 
-		/// <inheritdoc />
-		public ITwitchHelixApiService GetHelixApiService() => _twitchHelixApiService;
 
 		/// <inheritdoc />
 		public ITwitchRoomStateTrackerService GetRoomStateTrackerService() => _twitchRoomStateTrackerService;
