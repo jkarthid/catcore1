@@ -25,7 +25,7 @@ namespace CatCore.Services.Twitch
 
 		private readonly AsyncRetryPolicy<HttpResponseMessage> _exceptionRetryPolicy;
 
-		private readonly SemaphoreSlim _refreshLocker = new(1, 1);
+		private readonly SemaphoreSlim _refreshLocker = new(1, 0);
 		private readonly SemaphoreSlim _loggedInUserUpdateLocker = new(1, 1);
 
 		private readonly string[] _twitchAuthorizationScope =
