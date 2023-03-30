@@ -20,7 +20,7 @@ namespace CatCoreBenchmarkSandbox.Benchmarks.Miscellaneous
 		[GlobalSetup]
 		public void GlobalSetup()
 		{
-			Random = new Random(8);
+			Random = new Random(9);
 		}
 
 		[Benchmark(Baseline = true)]
