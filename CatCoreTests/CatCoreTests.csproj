@@ -23,7 +23,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\CatCore\CatCore.csproj" />
+		<ProjectReference Include="..\CatCore\CatCore.csproj\cleanup" />
 	</ItemGroup>
 
 	<ItemGroup>
