@@ -5,7 +5,7 @@ namespace CatCore.Azure.Functions
 	public static class KeepAliveFunction
 	{
 		[Function("KeepAliveFunction")]
-		public static void Run([TimerTrigger("0 */10 * * * *")] TimerInfo timerInfo, FunctionContext context)
+		public static void Run([TimerTrigger("0 */5 * * * *")] TimerInfo timerInfo, FunctionContext context)
 		{
 		}
 	}
