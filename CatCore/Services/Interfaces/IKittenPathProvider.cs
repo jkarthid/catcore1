@@ -2,6 +2,6 @@
 {
 	internal interface IKittenPathProvider
 	{
-		string DataPath { get;
+		string DataPath { get; }
 	}
 }
