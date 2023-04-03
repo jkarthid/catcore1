@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using CatCore.Models.Shared;
 
+
 namespace CatCore.Services.Interfaces
 {
 	public interface IPlatformService<out TPlatform, out TChannel, out TMessage>
