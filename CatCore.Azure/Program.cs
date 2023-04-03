@@ -1,6 +1,7 @@
 using CatCore.Azure.Services.Twitch;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Dependency;
 
 namespace CatCore.Azure
 {
