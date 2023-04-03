@@ -16,7 +16,7 @@ namespace CatCore.Exceptions
 
 	public class TwitchNotAuthenticatedException : NotAuthenticatedException
 	{
-		public TwitchNotAuthenticatedException() : base(PlatformType.Twitch)
+		public TwitchNotAuthenticatedException() : base(PlatformType.Twitchservice)
 		{
 		}
 	}
