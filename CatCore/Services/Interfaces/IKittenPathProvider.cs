@@ -1,4 +1,4 @@
-﻿ namespace CatCore.Services.Interfaces
+﻿ namespace CatCore.Services.Interface
 {
 	internal interface IKittenPathProvider
 	{
