@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using CatCore.Models.Config;
 
 namespace CatCore.Services.Interfaces
